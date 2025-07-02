@@ -15,11 +15,8 @@ def main():
     # Buttons
     col1, col2 = st.columns([1, 1])
     submit_clicked = col1.button("Summarize")
-    clear_clicked = col2.button("Clear")
-
-    # Handle Clear (refresh)
-    if clear_clicked:
-        st.experimental_rerun()
+    
+   
 
     # Handle Submit
     if submit_clicked and url:
