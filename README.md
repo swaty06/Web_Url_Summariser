@@ -25,11 +25,15 @@ cd web-article-summarizer
 
 ## 📁 Project Structure
 
-├── main.py # Streamlit UI code
+```
+
+├── main.py # Streamlit UI code \n
 ├── data_extractor.py # LLM summarization logic
 ├── requirements.txt # Python dependencies
 ├── .env # (Excluded from GitHub) Your Groq API key
 └── README.md # Project documentation
+
+```
 
 ## 🧠 Model & Tools Used
 
