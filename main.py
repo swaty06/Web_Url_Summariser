@@ -1,14 +1,28 @@
-import streamlit as st
-from data_extractor import summarize_article
-from newspaper import Article
+
 
 # Title
+import streamlit as st
+from newspaper import Article
+from data_extractor import summarize_article
+
 def main():
     st.title("📰 Web Article Summarizer")
     st.write("Paste a news article URL and get a concise summary with key takeaways.")
+
+    # Input field
     url = st.text_input("Enter URL here:")
 
-    if url:
+    # Buttons
+    col1, col2 = st.columns([1, 1])
+    submit_clicked = col1.button("Summarize")
+    clear_clicked = col2.button("Clear")
+
+    # Handle Clear (refresh)
+    if clear_clicked:
+        st.experimental_rerun()
+
+    # Handle Submit
+    if submit_clicked and url:
         with st.spinner("Extracting article..."):
             try:
                 article = Article(url)
