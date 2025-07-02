@@ -25,3 +25,17 @@ cd web-article-summarizer
 
 ## 📁 Project Structure
 
+├── main.py                 # Streamlit UI code
+├── data_extractor.py       # LLM summarization logic
+├── requirements.txt        # Python dependencies
+├── .env                    # (Excluded from GitHub) Your Groq API key
+└── README.md               # Project documentation
+
+## 🧠 Model & Tools Used
+
+- **LLaMA 3 via Groq API** – Used for fast and accurate article summarization.
+- **LangChain** – Utilized for prompt chaining and managing LLM interactions.
+- **newspaper3k** – For extracting clean text content from web article URLs.
+- **Streamlit** – To build an interactive and user-friendly web interface.
+
+
