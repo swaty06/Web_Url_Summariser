@@ -38,4 +38,9 @@ cd web-article-summarizer
 - **newspaper3k** – For extracting clean text content from web article URLs.
 - **Streamlit** – To build an interactive and user-friendly web interface.
 
+## 🙌 Acknowledgments
+
+Thanks to **[Groq](https://groq.com/)**, **[LangChain](https://www.langchain.com/)**, and the amazing **open-source community** for their powerful tools and libraries that made this project possible.
+
+
 
