@@ -1,7 +1,7 @@
 
 # 📰 Web Article Summarizer
 
-This Streamlit app allows you to paste a **news article URL** and get a **concise summary** with **key takeaways** using LLMs powered by [Groq](https://groq.com/).
+This Streamlit app allows you to paste a **any article URL** and get a **concise summary** with **key takeaways** using LLMs powered by [Groq](https://groq.com/).
 
 ---
 
